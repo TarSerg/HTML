@@ -1,0 +1,21 @@
+@media screen and (max-width: 800px){
+    .a{
+        height: 10vh;
+        width: 100vw;
+    }
+    .main{
+       flex-direction: column;
+    }
+    .box{
+        height: 60vh;
+        width: 105vw;
+flex-wrap: wrap;
+
+    }
+
+    .h{
+        height: 40vh;
+        width: 100vw;
+
+    }
+}

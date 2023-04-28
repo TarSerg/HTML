@@ -1,0 +1,32 @@
+body{
+
+    text-align:center;
+}
+.a{
+    height: 30vh;
+    width: 100vw;
+    background-color: #65856E;
+}
+.main{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+}
+.box {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+.b,.c,.d,.e,.f,.g {
+    height: 39.61vh;
+    width: 26.51vw;
+    background-color: #BAB5B5;
+    border: 1px solid black;
+}
+.h {
+    height: 100%;
+    width: 20%;
+    background-color: #3D6FB4;
+}
+

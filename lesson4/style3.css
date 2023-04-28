@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+form {
+
+    background-color: white;
+    width: 60vw;
+    height: 50vh;
+    margin: 20% auto;
+
+}
+.first {
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.field2{
+    margin:10px ;
+    width: 200px;
+    height: 40px;
+}
+.field1{
+    margin:10px ;
+    width: 170px;
+    height: 40px;
+}
+.second{
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.field{
+    margin:10px 0 ;
+    width: 400px;
+    height: 40px;
+}
+button{
+    width: 400px;
+    height: 40px;
+    font-size: 30px;
+    background-color: yellow;
+    border: none;
+}

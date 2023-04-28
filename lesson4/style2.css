@@ -1,0 +1,55 @@
+
+body{
+    background-color: darkcyan;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+
+    width: 40px;
+    height: 400px;
+    background-color:white;
+    margin:30vh auto;
+    border-radius: 20px;
+    border: none;
+
+}
+
+.header{
+    height: 15vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px  20px 0 0;
+    border: none;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.field{
+    margin: 15px auto;
+    width: 500px;
+    height: 40px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 99px;
+
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: gray;
+
+}

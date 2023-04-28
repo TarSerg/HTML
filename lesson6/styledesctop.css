@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    text-align:center;
+ }
+.a{
+    height: 30vh;
+    width: 100vw;
+    background-color: #65856E;
+}
+.main{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    }
+.box {
+    height: 100%;
+    width: 80%;
+}
+.b{
+   height: 50%;
+    width: 100%;
+    background-color: #ECBCBC;
+}
+.box2 {
+    height: 50%;
+    width: 100%;
+  display: flex;
+}
+.c,.d,.e{
+    height: 100%;
+    width: 33.4%;
+    background-color: #BAB5B5;
+    border: 1px solid black;
+}
+.f {
+    height: 100%;
+    width: 20%;
+    background-color: #3D6FB4;
+}
+
+
+
+

@@ -1,0 +1,34 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+}
+#color1 {
+    background-color: #ECBCBC;
+}
+#color2 {
+    background-color: aquamarine;
+}
+#color3 {
+    background-color: green;
+}
+section {
+    width: 100vw;
+    height: 100vh;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+p{
+    width: 80vw;
+}
+ a{
+    text-decoration: none;
+    color: black;
+}

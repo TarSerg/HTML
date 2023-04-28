@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <base href="content/">
+        <meta charset="utf-8">
+        <title>Study </title>
+        <style>
+            ul#menu li {
+                display:inline;
+            }
+        </style>
+        <meta name="description" content="Первый документ HTML5">
+        <meta name="author" content="Siarhei Tarasevich">
+    </head>
+    <body>
+        <form method="post" autocomplete="off" action="http://localhost:8080/login.php">
+            <input name="login"/>
+            <input name="password" autocomplete="on"/>
+            <input type="submit" value="Войти" />
+            <input type="search" name="term" />
+            <input type="submit" value="Поиск" />
+            <p><input type="text" name="userName" value="Введите имя" size="18"  /></p>
+            <p><input type="text" name="userPhone" placeholder="Введите номер телефона" size="18" maxlength="11" /></p>
+            <p>
+                <button type="submit" formmethod="get" formaction="index.html">Отправить</button> 
+                <button type="reset">Отмена</button>
+            <p><input list="phonesList" type="text" name="model" placeholder="Введите модель" /></p>
+
+            <p>
+                <label for="age">Возраст: </label>
+                <input type="number" step="1" min="1" max="100" value="5" id="age" name="age"/>
+            </p>
+            <p>
+                <button type="submit">Отправить</button>
+
+                <h2>Укажите пол</h2>
+                <p>
+                    <input type="radio" value="man" checked name="gender"/>мужской
+                </p>
+                <p>
+                    <input type="radio" value="woman" name="gender"/>женский
+                </p>
+                <h2>Выберите технологию</h2>
+                <p>
+                    <input type="radio" value="html5" checked name="tech"/>HTML5
+                </p>
+                <p>
+                    <input type="radio" value="net" name="tech"/>.NET
+                </p>
+                <p>
+                    <input type="radio" value="java" name="tech"/>Java
+                </p>
+                <p>
+                    <button type="submit">Отправить</button>
+               <h2>Изучаемые технологии</h2>     
+                    <p>
+                        <input type="checkbox" checked name="html5"/>HTML5
+                    </p>
+                    <p>
+                        <input type="checkbox" name="dotnet"/>.NET
+                    </p>
+                    <p>
+                        <input type="checkbox" name="java"/>Java
+                    </p>
+                    <p>
+                        <button type="submit">Отправить</button>          
+ 
+            </p>
+        </form>
+
+        <datalist id="phonesList">
+            <option value="iPhone 6S" label="54000"/>
+            <option value="Lumia 950">35000</option>
+            <option value="Nexus 5X"/>
+        </datalist>
+
+
+        <img src="../images/work.jpg" alt="Моя работа"
+        width="400"
+        height="400">
+        <a href="newpage.html">Содержание документа HTML5</a>
+        <div> Заголовок документа HTML5</div>
+        <div> Текст документа HTML5</div>
+            <div>
+            <p><span style="color:red;">Первый</span> параграф</p>
+            <p><span>Второй</span> параграф</p>
+            <p>Первая строка.<br/>Вторая строка.</p>
+            <pre>
+             первая строка
+                вторая строка
+                  третья стройка
+              
+            </pre>
+            <p>усердный труд</p>
+                <figure>
+                    <figcaption>Работа</figcaption>
+                    <img src="../images/work.jpg" alt="рабочий день"
+                    width="400"
+                    height="400">
+                </figure>
+                <p>приведет к цели</p>
+        </div>
+            <h1>Заголовок 1 уровня</h1>
+            <h2>Заголовок 2 уровня</h2>
+            <h3>Заголовок 3 уровня</h3>
+            <h4>Заголовок 4 уровня</h4>
+            <h5>заголовок 5 уровня</h5>
+            <h6>заголовок 6 уровня</h6>
+        <p>форматирование в <mark> HTML5</mark></p>    
+        <p>это <b>выделенный</b> текст</p>
+        <p>это <strong>важный</strong> текст</p>
+        <p>это <del>зачеркнутый</del> текст</p>
+        <p>это <s>недействительный</s> текст</p>
+        <P>это <em>важный</em> текст</P> 
+        <p>это <i>курсивом</i> текст</p>
+        <p>это <ins>добавленный </ins> текст</p>
+        <p>это <U>подчеркнутый </U> текст</p>
+        <p>X<sub>i</sub>= Y<sup><small>2</small></sup>+ Z<sup><small>2</small></sup></p>
+        <h2>нумерованный список</h2>
+        <ol style="list-style-type:upper-roman;" start="3">
+           <li>cat</li>
+           <li>dog</li>
+           <li>duck</li>
+        </ol>
+        <h2>неномерованный список</h2>
+        <ul style="list-style-type: circle;">
+           <li>cat</li>
+           <li>dog</li>
+           <li>duck</li>
+        </ul>
+        <h2>неномерованный список</h2>
+        <ul style="list-style-image:url(star.png);">
+           <li>cat</li>
+           <li>dog</li>
+           <li>duck</li>
+        </ul> 
+        <ul id="menu">
+            <li>Главная</li>
+            <li>Блог</li>
+            <li>Форум</li>
+            <li>О сайте</li>
+        </ul>
+        <details>
+            <summary>Флагманы 2015</summary>
+            <ul>
+                <li>iPhone 6S Plus</li>
+                <li>Nexus 6P</li>
+                <li>Galaxy S6 Edge</li>
+                <li>Lumia 950 XL</li>
+            </ul>
+        </details>
+        <dl>
+            <dt>Онтология</dt>
+            <dd>Раздел философии, изучающий фундаментальные принципы бытия</dd>
+            <dt>Гносеология</dt>
+            <dd>Философская дисциплина, занимающаяся исследованиями, критикой и теориями познания</dd>
+            <dt>Производственные отношения</dt>
+            <dd>Совокупность отношений между людьми, складывающихся в процессе общественного производства, 
+                обмена, распределения материальных благ и услуг.</dd>
+         <table>
+            <tr>
+                <td>Модель</td> <td>Компания</td> <td>Цена</td>
+            </tr>
+            <tr>
+                <td>Nexus 6P</td> <td>Huawei</td> <td>49000</td>
+            </tr>
+            <tr>
+                <td>iPhone 6S PLus</td> <td>Apple</td> <td>62000</td>
+            </tr>
+            
+        </table>      
+        <a href="http://www.microsoft.com/">Работа ссылки</a>     
+       
+        <h2>Элемент iframe</h2>
+        <iframe src="http://wikipedia.com" width="400" height="200">
+        </iframe>
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
